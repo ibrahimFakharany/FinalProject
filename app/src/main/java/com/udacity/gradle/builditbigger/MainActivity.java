@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        new MyAsynctask().execute(new Pair<Context, String>(this,"i was lighting before the thunder, thunder, thunder, thund" ));
+        new MyAsynctask().execute(new Pair<Context, String>(this,"Joke" ));
 
         /*myClass myClass = new myClass();
         String joke =  myClass.getJoke();
