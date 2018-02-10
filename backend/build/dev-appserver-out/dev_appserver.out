@@ -1,0 +1,23 @@
+Warning: Google App Engine Java 7 runtime is deprecated.
+Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
+??? 10, 2018 3:19:56 ? java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+??? 10, 2018 3:19:57 ? com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Users\450 G1\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'F:\ud867-master\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+??? 10, 2018 3:19:57 ? com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
+??? 10, 2018 1:19:58 ? com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (F:\ud867-master\FinalProject) is not equal to your 
+web application root (F:\ud867-master\FinalProject\backend\build\exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+??? 10, 2018 1:19:58 ? com.google.apphosting.utils.jetty.JettyLogger info
+INFO: jetty-6.1.x
+??? 10, 2018 1:20:01 ? com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Started SelectChannelConnector@localhost:8080
+??? 10, 2018 1:20:01 ? com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+??? 10, 2018 1:20:01 ? com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+??? 10, 2018 3:20:01 ? com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
