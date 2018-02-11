@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity implements MyAsynctask.Liste
     public void tellJoke(View view) {
 
         MyAsynctask myAsynctask = new MyAsynctask(this);
-        myAsynctask.execute("why nine afraid from seven, because seven eight nine" );
+        myAsynctask.execute("joke" );
 
     }
 

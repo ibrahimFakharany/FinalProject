@@ -28,7 +28,7 @@ public class MyTest extends AndroidTestCase {
 
 
         onView(withId(R.id.instructions_text_view)).perform(click());
-        onView(withId(R.id.text_name)).check(matches(withText("why nine afraid from seven, because seven eight nine")));
+        onView(withId(R.id.text_name)).check(matches(withText("joke")));
     }
 
 }
