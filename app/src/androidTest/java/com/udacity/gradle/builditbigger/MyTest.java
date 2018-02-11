@@ -27,7 +27,7 @@ public class MyTest extends AndroidTestCase {
     public void testVerifyResponse() {
 
 
-        onView(withId(R.id.instructions_text_view)).perform(click());
+        onView(withId(R.id.joke_button)).perform(click());
         onView(withId(R.id.text_name)).check(matches(withText("joke")));
     }
 
